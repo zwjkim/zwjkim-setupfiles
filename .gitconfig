@@ -1,0 +1,15 @@
+[user]
+	email = zwjkim@gmail.com
+	name = Wanjoong Kim
+[color]
+	ui = auto
+[core]
+	editor = vim
+[http]
+	sslVerify = false
+	sslCAInfo = /etc/ssl/certs/ca-certificates.crt
+
+[httpd] 
+    sslVersion = sslv3
+[credential]
+	helper = cache --timeout 7200
